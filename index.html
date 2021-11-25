@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Javascript Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="box1">
+            <h1> Guessing Game </h1>
+            <p>Try and guess a number between 1 and 100.</p>
+
+            <p>You have 10 attempts to guess the right number.</p>
+        </div>
+
+        <div class="box2">
+            <h1>Guess a number</h1>
+                <input type="text" class = 'guessField' id='guessField'/>
+                <div class="btn1">
+                <input type="submit" value="Submit guess" class="guessSubmit">
+                </div>
+            <h2>Guess Remaining: <span id="remaining"></span></h2>
+            <h3 class="Result"></h3>
+            <h4 class="lowOrHi"></h4>
+            <h5 class="guess"></h5>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
